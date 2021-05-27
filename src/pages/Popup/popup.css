@@ -1,0 +1,35 @@
+.submit-button {
+  width: 100%;
+  cursor: pointer;
+  border-radius: unset;
+  min-height: 56px;
+  padding-top: 16px;
+}
+
+.custom-block::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.custom-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.custom-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-action {
+  opacity: 0;
+}
+
+.custom-action > i {
+  cursor: pointer;
+}
+
+.custom-flex:hover .custom-action {
+  opacity: 0.8;
+}
